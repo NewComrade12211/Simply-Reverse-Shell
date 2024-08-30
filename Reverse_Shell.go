@@ -12,7 +12,7 @@ var (
  a1 = "ip"
  a2 = 4345
 )
-
+//Set-MpPreference -DisableRealtimeMonitoring $true
 func e1() {
  if a1 == "0.0.0.0" || a2 == 0 {
   fmt.Fprintln(os.Stderr, "[ERROR] a1 and/or a2 not defined.")
